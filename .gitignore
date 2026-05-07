@@ -1,0 +1,11 @@
+cat << 'EOF' > .gitignore
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.tfstate.lock.info
+
+# Python files
+__pycache__/
+venv/
+EOF
